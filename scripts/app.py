@@ -8,7 +8,7 @@ model = joblib.load('xgb_model.joblib')  # Adjust the path as needed
 
 # Streamlit app header
 st.title('Item Outlet Sales Prediction')
-st.write('This app predicts the outlet sales based on the provided features.')git remote add origin
+st.write('This app predicts the outlet sales based on the provided features.')
 st.write('Here XGBoost model was used.')
 
 
